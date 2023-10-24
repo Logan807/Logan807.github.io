@@ -1,0 +1,81 @@
+#palatte-1 {
+    font-family: monospace;
+    text-align: center;
+}
+#p1-c1 {
+    background-color: #181542;
+    color: white;
+    padding: 24px;
+    font-family:monospace;
+    text-align:center;
+}
+#p1-c2 {
+    background-color: #282370;
+    color: white;
+    padding: 24px;
+    font-family:monospace;
+    text-align:center;
+}
+#p1-c3 {
+    background-color:#362f99;
+    color: white;
+    padding: 24px;
+    font-family:monospace;
+    text-align:center;
+}
+
+#palatte-2 {
+    font-family:cursive;
+    text-align: center;
+}
+#p2-c1 {
+    background-color:#FF6614;
+    color: black;
+    padding: 24px;
+    font-family:cursive;
+    text-align:center;
+}
+#p2-c2 {
+    background-color: #46FF14;
+    color: black;
+    padding: 24px;
+    font-family:cursive;
+    text-align:center;
+}
+#p2-c3 {
+    background-color:#FFF50E;
+    color: black;
+    padding: 24px;
+    font-family:cursive;
+    text-align:center;
+}
+#p2-c4 {
+    background-color:#FF12E6;
+    color: black;
+    padding: 24px;
+    font-family:cursive;
+    text-align:center;
+}
+
+#palatte-3 {
+    font-family:serif;
+    text-align: center;
+}
+#p3-c1 {
+    background-color:#FF1D0D;
+    color: white;
+    padding: 24px;
+    text-align:center;
+}
+#p3-c2 {
+    background-color:#ffffff;
+    color: black;
+    padding: 24px;
+    text-align:center;
+}
+#p3-c3 {
+    background-color:#150DFF;
+    color: white;
+    padding: 24px;
+    text-align:center;
+}
