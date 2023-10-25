@@ -1,0 +1,30 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.sticky {
+    display:inline-block;
+    margin:24px;
+    padding:24px;
+    width:200px;
+    height:200px;
+    font-family: cursive;
+    box-shadow:3px 6px 10px #000000c0;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: rgb(54, 216, 216);
+}
+.opacity50 {
+    opacity:.5 ;
+}
+.opacity10 {
+    opacity:.1 ;
+}
