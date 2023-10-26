@@ -1,0 +1,41 @@
+#navbar {
+    text-align:center;
+    padding:24px 0px;
+    background-color:blue;
+}
+#navbar a {
+    color:white;
+    text-decoration:none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:110px
+}
+p a {
+    color:teal;
+    text-decoration:none
+}
+p.warning {
+    color:brown;
+    font-weight:bold;
+}
+p.warning a {
+    color:darkolivegreen;
+    text-decoration:overline;
+    border-style:groove;
+    border-width:5px;
+    border-color:fuchsia;
+}
+ul a {
+    color:forestgreen;
+}
+ul div a {
+    color:hotpink
+}
+#block {
+    background-color: lightseagreen;
+    padding:50px;
+    display:inline-block;
+    border-style:outset;
+    border-width:20px;
+    border-color:lightseagreen;
+    transform:translateX(200%) translateY(-200px) rotate(40deg);
+}
