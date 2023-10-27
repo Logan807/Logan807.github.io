@@ -1,0 +1,41 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+div.display-space img {
+    display:inline-block;
+    margin:0px 30px;
+}
+div.display-space img#baby {
+    transform: rotate(5deg);
+    margin-top:70px;
+}
+div.display-space img#sad {
+    margin-top:40px;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.308);
+    border-style:groove;
+    border-color:black;
+    padding:2px;
+    background-color: black;
+    margin-left:35px;
+}
+div.display-space div.frame {
+    transform:rotate(-3deg) translate(150px, 100px);
+    background-color: cornflowerblue;
+    padding:1px 5px;
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+div.display-space img#help {
+    margin:-4px;
+    transform:translate(0px, 0px);
+}
+div.display-space h3#hang {
+    transform:translate(0px, 0px);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:25px;
+}
