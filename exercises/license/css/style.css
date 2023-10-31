@@ -71,7 +71,7 @@ div#personal-info div#data-fields div#data-right {
     display:inline-block;
 }
 div#personal-info div#data-fields div#signature {
-    font-family:cursive;
+    font-family: 'Zeyada', cursive;
     color:black;
     text-align:center;
 }
