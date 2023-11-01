@@ -1,0 +1,23 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    background-color:lightcoral;
+    font-family: sans-serif;
+}
+.single-column {
+    background-color: beige;
+    width:50%;
+    min-width:500px;
+    margin:0px auto;
+}
+.light-container {
+    background-color: burlywood;
+    padding:40px 0px;
+}
+.dark-container {
+    background-color: rebeccapurple;
+    padding:40px 0px;
+    color:chartreuse;
+}
