@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+}
+div.block {
+    width:50%;
+    margin:0px auto;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+div#surround1 {
+    background-color:black;
+    color:white;
+}
+h1.title {
+    text-align:center;
+}
+img#cat {
+    width:100%;
+}
+p.text {
+    text-align:center;
+}
+div#surround2 {
+    background-color: red;
+    color:white;
+}
+img#mario {
+    width:100%
+}
+p#mario-text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1#mario-header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#surround3 {
+    background-color:black;
+    color:antiquewhite;
+}
+img#iphone {
+    width:100%;
+}
