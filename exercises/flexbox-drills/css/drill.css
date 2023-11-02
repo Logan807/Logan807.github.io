@@ -1,0 +1,52 @@
+/* Drill 1 - Write your code solution below */
+.container {
+    display:flex;
+}
+
+/* Drill 2 - Write your code solution below */
+
+
+/* Drill 3 - Write your code solution below */
+div#container-3 {
+    flex-direction:column;
+}
+
+/* Drill 4 - Write your code solution below */
+div#container-4 {
+    align-items:center;
+}
+#c4-box1, #c4-box2 {
+    text-align: center;
+}
+
+/* Drill 5 - Write your code solution below */
+#container-5 {
+    align-items: center;
+    justify-content:center;
+}
+
+/* Drill 6 - Write your code solution below */
+#container-6 {
+    justify-content:space-between;
+}
+
+/* Drill 7 - Write your code solution below */
+#container-7 {
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* Drill 8 - Write your code solution below */
+.box {
+    flex:1;
+}
+
+/* Drill 9 - Write your code solution below */
+#c9-box2 {
+    flex:7;
+}
+
+/* Drill 10 - Write your code solution below */
+#c10-box1 {
+    flex:7;
+}
