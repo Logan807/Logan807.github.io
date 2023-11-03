@@ -1,0 +1,36 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+div#two-columns {
+    display:flex;
+}
+div#sidebar {
+    background-color:rgb(184, 184, 184);
+    flex:1;
+    order:2;
+    padding:20px;
+}
+div#content {
+    flex:6;
+    order:1;
+    padding:40px;
+}
+#sidebar h2 {
+    border-bottom:2px solid black;
+    padding-bottom:10px;
+}
+#sidebar ul {
+    list-style-type:none;
+    padding:0px;
+}
+#sidebar ul li {
+    padding: 5px 0px;
+}
+#sidebar ul li a {
+    text-decoration:none;
+    color:black;
+}
