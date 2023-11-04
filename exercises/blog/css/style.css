@@ -1,0 +1,77 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    background:radial-gradient(at top, rgb(90, 0, 0), rgb(170, 3, 3));
+    font-family:Arial, Helvetica, sans-serif;
+}
+div#grid {
+    display:grid;
+    grid-template-columns:2fr 5fr 2fr 2fr;
+    grid-template-areas:
+        ". content sidebar ."
+}
+div#sidebar {
+    grid-area:sidebar;
+    margin:40px 20px;
+    position:sticky;
+    top:20px;
+}
+div#sidebar h2 {
+    background-color: darkgray;
+    border:1px solid black;
+    margin:0px;
+    padding:20px;
+}
+div#sidebar ul {
+    background-color: darkgray;
+    border:1px solid black;
+    margin:0px;
+    padding:20px;
+    border-top:none;
+    margin-bottom:20px;
+}
+#sidebar li {
+    padding:5px;
+    margin:5px 0px;
+    list-style-type:none;
+}
+#sidebar li a {
+    text-decoration:none;
+    color:darkred;
+}
+div#content {
+    grid-area:content;
+    background-color:darkgray;
+    border:1px solid black;
+    margin:40px 0px;
+    padding:20px;
+}
+div.block {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+        "left right"
+    ;
+}
+div.left {
+    grid-area:left;
+}
+div.right {
+    grid-area:right;
+}
+div.right#achievement {
+    text-align:right;
+    margin:20px 20px 0px 20px;
+}
+img#clock {
+    width:40%;
+    float:left;
+    margin:10px;
+}
+img#rocket {
+    width:40%;
+    float:right;
+    margin:10px;
+}
