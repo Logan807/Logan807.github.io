@@ -72,6 +72,14 @@ body {
     margin-bottom:24px;
     padding:1px;
 }
+.item-main h3 {
+    margin:8px;
+}
+.item-main a {
+    text-decoration:none;
+    color:#111;
+    display:block;
+}
 .item:hover {
     background-color:#eee;
     border-radius:5px;
