@@ -1,0 +1,76 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:radial-gradient(at top right, rgb(8, 8, 34), black);
+    color:white;
+}
+.head {
+    padding:40px;
+    text-align:center;
+}
+.head img {
+    width:100%;
+}
+
+.card-layout {
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+.card-layout .card {
+    flex:1;
+    text-align:center;
+    background-color:midnightblue;
+    margin:10px;
+    padding:20px;
+}
+
+.sbs {
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    align-items:center;
+}
+.sbs img {
+    width:20%;
+    margin:0px 60px;
+    border-radius:20px;
+}
+.sbs a {
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    padding:20px;
+    border-radius:50px;
+    font-size:30px;
+    font-weight:bold;
+    transition:transform 0.3s;
+    margin:0px 50px;
+}
+.sbs a:hover {
+    transform:translateY(-5px);
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin:20px;
+    text-align:center;
+}
+.grid .label {
+    font-weight:bold;
+    font-size:20px;
+    padding:20px;
+    border:1px solid white;
+}
+.grid div {
+    padding:20px;
+}
+.grid p {
+    padding:20px;
+    border:1px solid white;
+    margin:0px;
+}
