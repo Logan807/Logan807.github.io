@@ -1,0 +1,121 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:sans-serif;
+}
+#hero-1 {
+    background-image:url(../images/lizard.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center center;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+#hero-1 h1 {
+    font-size:10vw;
+    padding-left:10vw;
+}
+
+.space {
+    height:50vw;
+    background-image:url(../images/emerald-seas.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+#hero-2 {
+    background-image:url("../images/lonely-ocean.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-direction:column;
+}
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 3vh;
+    margin-right: 5vw;
+}
+#hero-2 h4 {
+    font-size: 4vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-2 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 3vh 5vw 10vh 0px;
+    border-radius:5vw;
+}
+
+#hero-3 {
+    background-image: url("../images/orange-wildflowers.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+#hero-3 .hero-content {
+    position:absolute;
+    top:20%;
+    left:10%;
+}
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 3vh;
+    margin-right: 5vw;
+}
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-3 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 3vh 3vw 10vh 0px;
+    border-radius:5vw;
+}
+
+#hero-4 {
+    background-image:url(../images/stars-on-velvet.jpg);
+    height:100vw;
+    background-size:cover;
+    background-position:center center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#hero-4 .hero-content {
+    text-align:center;
+    color:white;
+    padding-top:20vh;
+}
+#hero-4 h2 {
+    font-size:10vh;
+    margin-bottom:4vw;
+}
+#hero-4 h4 {
+    font-size:2vw;
+}
+#hero-4 a {
+    font-size:2vw;
+    display:inline-block;
+    background-color:white;
+    color:#333333;
+    text-decoration:none;
+    padding:2vw;
+    margin:3vh 3vh;
+    font-weight:bold;
+}
