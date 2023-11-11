@@ -1,0 +1,87 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#hero {
+    background-image:url(../images/viper.jpg);
+    height:55vh;
+    background-position:center center;
+    background-size:cover;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+#hero h1 {
+    text-align:center;
+    font-size:50px;
+    margin:4vw;
+    color:white;
+}
+
+#gallery {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1vw;
+    margin:0vw 2vw;
+}
+
+#gallery h3 {
+    width:100%;
+    height:20vw;
+    background-position:center center;
+    background-size:cover;
+    color:white;
+    padding:1vw;
+    text-shadow:2px 2px 3px black;
+    font-size:2vw;
+}
+
+h3#nsx {
+    background-image:url(../images/nsx.jpg);
+}
+h3#skyline {
+    background-image:url(../images/skyline.jpg);
+}
+h3#threethousandgt {
+    background-image:url(../images/3000gt.jpg);
+}
+h3#charger {
+    background-image:url(../images/charger.jpg);
+}
+h3#impreza {
+    background-image:url(../images/impreza.jpg);
+}
+h3#mr2 {
+    background-image:url(../images/mr2.jpg);
+}
+h3#rx7 {
+    background-image:url(../images/rx7.jpg);
+}
+h3#supra {
+    background-image:url(../images/supra.jpg);
+}
+h3#gt40 {
+    background-image:url(../images/gt40.jpg);
+}
+h3#lfa {
+    background-image:url(../images/lfa.jpg);
+}
+h3#superbird {
+    background-image:url(../images/superbird.jpg);
+}
+h3#quattro {
+    background-image:url(../images/quattro.jpg);
+}
+h3#camaro {
+    background-image:url(../images/camaro.jpg);
+}
+h3#lancer {
+    background-image:url(../images/lancer-evo.jpg);
+}
+h3#corvette {
+    background-image:url(../images/corvette.jpg);
+}
