@@ -4,13 +4,111 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gallery</title>
+        <link href="css/gallery.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Gallery</h1>
+        <div class="heading">
+            <h1 id="title">Gallery</h1>
 
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+            <a class="heading-link" id="home" href="index.html">Home</a>
+            <a class="heading-link" id="gallery" href="gallery.html">Gallery</a>
+            <a class="heading-link" id="about" href="about.html">About</a>
+            <a class="heading-link" id="contact" href="contact.html">Contact</a>
+        </div>
+
+        <div id="content">
+            <div class="grid">
+                <div class="img-cap" id="interesting-cat">
+                    <img 
+                        src="images/TheWorldsMostInterestingCat2.png"
+                        alt="the world's most interesting cat"
+                    >
+                    <h6 class="caption">The world's most interesting cat</h6>
+                </div>
+                <div class="img-cap" id="eval-before">
+                    <img
+                        src="images/pexels-frans-van-heerden-624015.jpg"
+                        alt="before"
+                    >
+                    <h6 class="caption">before</h6>
+                </div>
+                <div class="img-cap" id="eval-after">
+                    <img 
+                        src="images/Eval_103_LRiddell.jpg"
+                        alt="after"
+                    >
+                    <h6 class="caption">after</h6>
+                </div>
+                <div class="img-cap" id="dont-crash">
+                    <img 
+                        src="images/ohboyihopeidontcrash.jpg"
+                        alt="a peaceful drive through the mountains"
+                    >
+                    <h6 class="caption">A peaceful drive through the mountains</h6>
+                </div>
+                <div class="img-cap" id="scuba-before">
+                    <img
+                        src="images/wada.jpg"
+                        alt="a normal scuba expedition..."
+                    >
+                    <h6 class="caption">A normal SCUBA expedition...</h6>
+                </div>
+                <div class="img-cap" id="scuba-after">
+                    <img
+                        src="images/jaws2000.jpg"
+                        alt="...goes wrong"
+                    >
+                    <h6 class="caption">...Goes wrong</h6>
+                </div>
+                <div class="img-cap" id="flip">
+                    <img
+                        src="images/cat-flip-dance.gif"
+                        alt="flips"
+                    >
+                    <h6 class="caption">Cat flipping like Kirby</h6>
+                </div>
+                <div class="img-cap" id="fortune">
+                    <img
+                        src="images/fortune cookies are not actually chinese.png"
+                        alt="Made from a random fortune generator"
+                    >
+                    <h6 class="caption">Made from an online fortune generator</h6>
+                </div>
+                <div class="img-cap" id="zeppelin">
+                    <img
+                        src="images/ledzeppelin.jpg"
+                        alt="WWI zeppelin"
+                    >
+                    <h6 class="caption">Historic WWI photograph</h6>
+                </div>
+                <div class="img-cap" id="cat-bounce">
+                    <video 
+                        controls 
+                        loop 
+                        src="images/catbounceloop.mp4" 
+                        alt="bouncy cat"
+                    >
+                    </video>
+                    <h6 class="caption">Perfectly looping bouncy cat</h6>
+                </div>
+                <div class="img-cap" id="sad">
+                    <video
+                        controls
+                        loop
+                        src="images/snairl.mp4"
+                        alt="The saddest movie ever"
+                    >
+                    </video>
+                    <h6 class="caption">The saddest movie you'll ever see</h6>
+                </div>
+                <div class="img-cap" id="pespi">
+                    <img
+                        src="images/pespiplanet.png"
+                        alt="Pespi Planet"
+                    >
+                    <h6 class="caption">The Pespi Planet</h6>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

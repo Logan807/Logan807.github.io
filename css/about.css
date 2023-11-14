@@ -1,5 +1,9 @@
+* {
+    box-sizing:border-box;
+}
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
 }
 div.heading {
     text-align:center;
@@ -12,13 +16,28 @@ div.heading {
 div.heading a.heading-link {
     text-decoration:none;
     color:white;
-    margin-right:20%;
+    margin-right:18%;
+    padding:0.5vw 2vw;
+    border-radius:.6vw;
+    transition:
+        background-color 0.3s, 
+        color 0.3s
+    ;
+}
+div.heading a.heading-link:hover {
+    background-color:white;
+    color:rgb(0, 0, 65);
 }
 div.heading a.heading-link#contact {
     margin-right:0px;
 }
 div.container {
     text-align:center;
+    display:grid;
+    grid-template-columns:1fr 5fr 5fr 1fr;
+    grid-template-areas:
+        ". left right ."
+    ;
 }
 div.container-right {
     text-align:right;
@@ -30,19 +49,19 @@ div.container#c1 {
     margin-top:20px;
 }
 div.container div.left {
-    display:inline-block;
+    display:block;
+    grid-area:left;
 }
 div.container div.left img#example {
     width:600px;
-    margin-left:100px;
     margin-right:10px;
-    display:inline;
+    display:block;
     box-shadow:-5px 5px 10px;
 }
 div.container div.right {
-    display:inline-block;
+    display:block;
     text-align:left;
-    vertical-align:top;
+    grid-area:right;
 }
 div.container div.right h2.header{
     display:inline-block;
@@ -51,12 +70,12 @@ div.container div.right h2.header{
 div.container div.right p#p1 {
     display:inline-block;
     margin:10px 20px;
-    margin-right:100px;
+    margin-right:1vw;
     width:800px;
 }
 div.container-right img#example2 {
     width:600px;
-    margin-right:100px;
+    margin-right:1vw;
     text-align:right;
     display:inline-block;
     margin-top:-330px;

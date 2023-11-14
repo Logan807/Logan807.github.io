@@ -1,0 +1,116 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+}
+div.heading {
+    text-align:center;
+    background-color: rgb(0, 0, 65);
+    color:white;
+    padding-bottom:15px;
+    padding-top:5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.heading a.heading-link {
+    text-decoration:none;
+    color:white;
+    margin-right:18%;
+    padding:0.5vw 2vw;
+    border-radius:.6vw;
+    transition:
+        background-color 0.3s, 
+        color 0.3s
+    ;
+}
+div.heading a.heading-link:hover {
+    background-color:white;
+    color:rgb(0, 0, 65);
+}
+div.heading a.heading-link#contact {
+    margin-right:0px;
+}
+
+#hero {
+    background-image:url(../images/tyrannosaurus\ wrecks.png);
+    height:100vh;
+    margin:0px;
+    background-size:cover;
+    background-position:top center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+#hero div {
+    background-color:rgb(0, 0, 65);
+    border-radius:2vw 2vw 0vw 0vw;
+    padding:1vw 2vw;
+}
+#hero h2 {
+    margin:0px;
+    color:white;
+    padding:0vw 3vw 1vw;
+    font-size:4vw;
+    text-align:center;
+}
+#hero h3 {
+    margin:0px;
+    color:white;
+    padding:0vw 2vw 2vw;
+    font-size:2vw;
+    text-align:center;
+}
+
+.three-column {
+    display:grid;
+    grid-template-columns:1fr 5fr 5fr 5fr 1fr;
+    grid-template-areas:
+        ". left center right ."
+    ;
+    padding:2vw;
+}
+.three-column .left {
+    grid-area:left;
+}
+.three-column .center {
+    grid-area:center;
+}
+.three-column .right {
+    grid-area:right;
+}
+
+.three-column a {
+    text-decoration:none;
+}
+.three-column a:hover {
+    text-decoration:underline 2px solid white;
+}
+.img-cap {
+    text-align:center;
+    background-color: rgb(0, 0, 65);
+    padding:2vw;
+    margin:0px 1vw;
+    box-shadow:3px 3px 6px black;
+    transition:
+        transform 0.4s
+    ;
+}
+.img-cap:hover {
+    transform:translateY(-0.4vw);
+}
+.img-cap .caption {
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:1vw;
+    font-size:2vw;
+    text-align:center;
+    margin:0px;
+}
+.img-cap img {
+    width:20vw;
+    height:20vw;
+    object-fit:cover;
+    margin:0px;
+}

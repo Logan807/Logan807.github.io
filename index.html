@@ -4,13 +4,66 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
+        <link href="css/index.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Home</h1>
+        <div class="heading">
+            <h1 id="title">Home</h1>
 
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+            <a class="heading-link" id="home" href="index.html">Home</a>
+            <a class="heading-link" id="gallery" href="gallery.html">Gallery</a>
+            <a class="heading-link" id="about" href="about.html">About</a>
+            <a class="heading-link" id="contact" href="contact.html">Contact</a>
+        </div>
+
+        <div class="content">
+            <div id="hero">
+                <div>
+                    <h2>Welcome</h2>
+                    <h3>To My Evil Underground Lair</h3>
+                </div>
+            </div>
+            <div class="three-column">
+                <div class="left">
+                    <a href="gallery.html">
+                        <div class="img-cap">
+                            <img
+                                src="images/the_eye.jpg"
+                                alt="the eye"
+                            >
+                            <h6 class="caption">
+                                Gallery
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="center">
+                    <a href="about.html">
+                        <div class="img-cap">
+                            <img 
+                                src="images/fortune cookies are not actually chinese.png"
+                                alt="fortune cookie"
+                            >
+                            <h6 class="caption">
+                                About
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="contact.html">
+                        <div class="img-cap">
+                            <img 
+                                src="images/ohboyihopeidontcrash.jpg"
+                                alt="peaceful drive"
+                            >
+                            <h6 class="caption">
+                                Contact
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
