@@ -42,6 +42,9 @@ div.heading a.heading-link#contact {
         "four five six"
         "seven eight nine"
         "ten eleven twelve"
+        "thirteen fourteen fifteen"
+    ;
+    text-align:center;
 }
 .grid .img-cap img {
     width:100%;
@@ -97,4 +100,22 @@ div.heading a.heading-link#contact {
 }
 .grid #pespi {
     grid-area:ten;
+}
+.grid #maro {
+    grid-area:fourteen;
+}
+.grid #motel {
+    grid-area:thirteen;
+}
+.grid #coke {
+    grid-area:fifteen;
+}
+.grid #motel img {
+    width:24vw;
+}
+.grid #coke img {
+    width:17vw;
+}
+.grid #maro img {
+    width:28vw;
 }
