@@ -1,0 +1,81 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#banner {
+    padding:14px;
+    background:linear-gradient(to bottom, rgb(255, 193, 78), orange);
+    text-align:center;
+}
+#banner a {
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#navbar {
+    display:flex;
+    justify-content:space-between;
+    padding:24px;
+    background:linear-gradient(to bottom, orange, orangered);
+    align-items:center;
+}
+#navbar a {
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    padding:20px 24px;
+    border-radius:40px;
+    margin:12px;
+}
+#navbar a:hover {
+    background:linear-gradient(to top, orange, orangered);
+}
+#logo a {
+    font-size:36px;
+    font-weight:bold;
+}
+#logo {
+    margin-right:auto;
+}
+#logo a:hover {
+    background:transparent;
+}
+#navbar #button {
+    padding:20px 36px;
+    background:linear-gradient(to bottom, orange, orangered);
+    border-radius:40px;
+    color:black;
+    font-weight:bold;
+    border:3px solid black;
+}
+#navbar #button:hover {
+    background:linear-gradient(to top, orange, orangered);
+}
+
+#navbar-2 {
+    display:flex;
+    justify-content:space-between;
+    padding:24px;
+    background:linear-gradient(to bottom, orangered, black);
+    align-items:center;
+}
+#navbar-2 a {
+    color:white;
+    text-decoration:none;
+    padding:12px 16px;
+    font-size:16px;
+    border-radius:30px;
+    transition:
+        background-color .3s,
+        color .3s
+    ;
+}
+#navbar-2 a:hover {
+    background-color: white;
+    color:orangered;
+}

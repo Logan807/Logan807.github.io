@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#navbar {
+    display:flex;
+    justify-content:space-between;
+    padding:24px;
+    background:linear-gradient(to bottom, rgb(165, 112, 42), rgb(165, 91, 42));
+    align-items:center;
+}
+#navbar a {
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    padding:0px 24px;
+}
+#navbar a:hover {
+    text-decoration:underline 1px solid;
+}
+#logo a {
+    font-size:24px;
+    font-weight:bold;
+}
+#logo {
+    margin-right:auto;
+}
