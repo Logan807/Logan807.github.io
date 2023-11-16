@@ -1,0 +1,120 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#card-set-1 {
+    display:flex;
+    flex-wrap:wrap;
+}
+.card-1 {
+    flex:1;
+    padding:20px;
+    border:2px solid black;
+    margin:20px;
+    text-align:center;
+    transition:
+        transform .3s,
+        box-shadow .3s
+    ;
+}
+.card-1:hover {
+    transform:translateY(-5px);
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+#card-set-2 {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+.card-2 {
+    flex:1;
+    padding:10px;
+    margin:20px;
+    text-align:center;
+    transition:
+        transform 2s
+    ;
+}
+.card-2 img {
+    width:100%;
+    object-fit:cover;
+}
+#card-2-3 img, #card-2-1 img, #card-2-4 img {
+    height:100%;
+}
+.card-2:hover {
+    transform:rotate(720deg);
+}
+
+#card-set-3 {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.card-3 {
+    flex:1;
+    padding:10px;
+    margin:20px;
+    text-align:center;
+    transition:
+        opacity 2s,
+        transform 2.5s
+    ;
+}
+.card-3:hover {
+    opacity:0;
+    transform:rotate(1080deg) translate(43px, -155px);
+}
+#card-case:hover #card-3-3 {
+    opacity:1;
+    transform:rotate(1080deg) translate(0px, 0px);
+}
+#card-3-3 {
+    opacity:0;
+    transform:rotate(-1080deg) translate(43px, -155px);
+}
+#card-case {
+    display:flex;
+    flex-wrap:wrap;
+    border:2px solid black;
+    margin:20px;
+}
+#card-case-2 {
+    display:flex;
+    flex-wrap:wrap;
+    border:6px solid black;
+    margin:20px;
+    border-radius:50% 0px;
+    width:200px;
+    height:200px;
+    background-color:blue;
+    transform:rotate(1080deg);
+    transition:
+        transform 2s
+    ;
+}
+#card-3-4 {
+    color:white;
+    background-color:purple;
+    border-radius:0px 50%;
+    border:6px solid black;
+    opacity:0;
+    transform:transform(-1800deg) scale(0);
+    transition:
+        transform 2s,
+        opacity 1.5s
+    ;
+}
+#card-case-2:hover #card-3-4 {
+    opacity:1;
+    transform:rotate(1800deg) scale(1);
+}
+#card-case-2:hover {
+    transform:rotate(0deg);
+}
