@@ -1,0 +1,193 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header {
+    background-color:#f08b24;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 10px;
+}
+#header #name {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:36px;
+    margin-right:auto;
+}
+#header #links a {
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    padding:14px 20px;
+    transition:box-shadow .3s;
+}
+#header #links a:hover {
+    opacity:.75;
+    box-shadow:inset 3px 3px 5px rgba(0, 0, 0, 0.452);
+}
+
+#hero {
+    background-image:url(../images/pizza-boxe.jpg);
+    width:100%;
+    height:70vh;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    padding:3vw;
+}
+#hero h2 {
+    font-size:48px;
+    margin:10px;
+}
+#hero a {
+    font-weight:bold;
+    text-decoration:none;
+    font-size:36px;
+    color:black;
+    background-color:#e74425;
+    border-radius:50px;
+    padding:20px;
+    width:fit-content;
+    transition:
+        box-shadow .3s,
+        transform .3s;
+}
+#hero a:hover {
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.452);
+    transform:translateY(-3px);
+}
+#hero a:active {
+    transform:translateY(0px);
+    box-shadow:inset 3px 3px 5px rgba(0, 0, 0, 0.452);
+}
+
+.heading {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.title {
+    font-size:48px;
+    padding:20px;
+    margin:0px;
+}
+.subtitle {
+    color:#e74425;
+    font-weight:bold;
+    padding:20px;
+    font-size:24px;
+}
+.grid {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.grid a {
+    text-align:center;
+    text-decoration:none;
+    padding:20px;
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+    border-radius:50px;
+    margin:10px;
+}
+#pizza {
+    background-image:url(../images/pizza-two.jpg);
+    height:400px;
+    background-size:cover;
+    background-position:top;
+}
+#wings {
+    background-image:url(../images/wing.jpg);
+    height:400px;
+    background-size:cover;
+    background-position:top;
+}
+#sticks {
+    background-image:url(../images/mozzzzzzerelle.jpg);
+    height:400px;
+    background-size:cover;
+    background-position:center;
+}
+
+#footer {
+    background-color:#f08b24;
+    padding:15px;
+}
+#footer #social-media {
+    display:flex;
+    justify-content:center;
+}
+#footer #social-media #block {
+    background-color:white;
+    border-radius:50px;
+    padding:5px 15px;
+}
+#footer #social-media a {
+    font-size:30px;
+    text-decoration:none;
+}
+#footer #footer-links {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding:10px;
+}
+#footer-links a {
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+#footer-links a:hover {
+    text-decoration:underline;
+}
+
+@media screen and (max-width:1000px) and (min-width:801px) {
+    .grid {
+        grid-template-columns:1fr;
+    }
+
+    #hero h2 {
+        margin-top:60px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .grid {
+        grid-template-columns:1fr;
+    }
+
+    #header {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    #header #links a {
+        font-size:18px;
+        padding:20px 18px;
+    }
+    #header #links a:hover {
+        opacity:.75;
+        box-shadow:none
+    }
+
+    #hero {
+        padding:2vw;
+    }
+    #hero h2 {
+        font-size:48px;
+        margin:10px;
+        margin-top:60px;
+    }
+    #hero a {
+        font-weight:bold;
+        text-decoration:none;
+        font-size:24px;
+    }
+}
