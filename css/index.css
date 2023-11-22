@@ -116,3 +116,22 @@ div.heading a.heading-link#contact {
     object-fit:cover;
     margin:0px;
 }
+
+@media screen and (max-width:1000px) {
+    #hero h2 {
+        padding:0vw 3vw 1vw;
+        font-size:8vw;
+    }
+    #hero h3 {
+        padding:0vw 2vw 2vw;
+        font-size:4vw;
+    }
+}
+
+@media screen and (max-width:800px) {
+    div.heading a.heading-link {
+        display:block;
+        margin-right:0px;
+        padding:0.75vw 2vw;
+    }
+}

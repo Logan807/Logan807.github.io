@@ -80,3 +80,11 @@ div.container-right img#example2 {
     display:inline-block;
     margin-top:-330px;
 }
+
+@media screen and (max-width:800px) {
+    div.heading a.heading-link {
+        display:block;
+        margin-right:0px;
+        padding:0.75vw 2vw;
+    }
+}

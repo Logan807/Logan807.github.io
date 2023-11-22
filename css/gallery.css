@@ -119,3 +119,11 @@ div.heading a.heading-link#contact {
 .grid #maro img {
     width:28vw;
 }
+
+@media screen and (max-width:800px) {
+    div.heading a.heading-link {
+        display:block;
+        margin-right:0px;
+        padding:0.75vw 2vw;
+    }
+}
