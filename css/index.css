@@ -64,6 +64,14 @@ div.heading a.heading-link:hover {
     text-align:center;
 }
 
+#cta {
+    color:white;
+    align-self:flex-end;
+    margin:2vw;
+    transform:translateY(17vh);
+    font-size:12px;
+}
+
 .three-column {
     display:grid;
     grid-template-columns:1fr 5fr 5fr 5fr 1fr;
