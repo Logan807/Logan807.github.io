@@ -154,4 +154,27 @@ div.heading a.heading-link:hover {
     div.heading-links {
         flex-direction:column;
     }
+
+    .three-column {
+        display:grid;
+        grid-template-columns:1fr 2fr 1fr;
+        grid-template-areas:
+            ". left ."
+            ". center ."
+            ". right ."
+        ;
+        padding:2vw;
+    }
+    .three-column .left {
+        grid-area:left;
+        margin:1vw;
+    }
+    .three-column .center {
+        grid-area:center;
+        margin:1vw;
+    }
+    .three-column .right {
+        grid-area:right;
+        margin:1vw;
+    }
 }
