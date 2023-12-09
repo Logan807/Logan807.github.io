@@ -27,14 +27,14 @@ body {
     background-position:bottom center;
 }
 .grid-block.rock {
-    background-image: url('../images/closed.png');
+    background-image: url('../images/whomp.png');
     background-size:contain;
 }
 .grid-block.gravel {
     background-image: url('../images/grovel.png');
 }
 .grid-block.hole {
-    background-image: url('../images/tre.png');
+    background-image: url('../images/closed.png');
     background-size:contain;
 }
 
