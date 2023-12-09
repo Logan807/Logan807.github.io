@@ -22,16 +22,20 @@ body {
     z-index: 1;
 }
 .grid-block.grass {
-    background-image: url('../images/grass.png');
+    background-image: url('../images/better_grass.png');
+    background-size:contain;
+    background-position:bottom center;
 }
 .grid-block.rock {
-    background-image: url('../images/rock.png');
+    background-image: url('../images/closed.png');
+    background-size:contain;
 }
 .grid-block.gravel {
-    background-image: url('../images/gravel.png');
+    background-image: url('../images/grovel.png');
 }
 .grid-block.hole {
-    background-image: url('../images/hole_v3.png');
+    background-image: url('../images/tre.png');
+    background-size:contain;
 }
 
 /*******************************************************************************
