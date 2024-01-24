@@ -44,6 +44,7 @@ div.heading a.heading-link:hover {
         "seven eight nine"
         "ten eleven twelve"
         "thirteen fourteen fifteen"
+        "sixteen seventeen eighteen"
     ;
     text-align:center;
 }
@@ -70,15 +71,15 @@ div.heading a.heading-link:hover {
     grid-area:one;
 }
 .grid #eval-before {
-    grid-area:two;
+    grid-area:seventeen;
 }
 .grid #eval-after {
-    grid-area:three;
+    grid-area:eighteen;
 }
-.grd #scuba-before {
+.grid #scuba-before {
     grid-area:four;
 }
-.grd #scuba-after {
+.grid #scuba-after {
     grid-area:five;
 }
 .grid #dont-crash {
@@ -88,10 +89,10 @@ div.heading a.heading-link:hover {
     grid-area:eleven;
 }
 .grid #fortune {
-    grid-area:nine;
+    grid-area:three;
 }
 .grid #zeppelin {
-    grid-area:eight;
+    grid-area:sixteen;
 }
 .grid #cat-bounce {
     grid-area:seven;
@@ -108,14 +109,20 @@ div.heading a.heading-link:hover {
 .grid #motel {
     grid-area:thirteen;
 }
-.grid #coke {
+.grid #ocean {
     grid-area:fifteen;
+}
+.grid #meeting {
+    grid-area:eight;
+}
+.grid #threedee {
+    grid-area:nine;
+}
+.grid #spaceeffect {
+    grid-area:two;
 }
 .grid #motel img {
     width:24vw;
-}
-.grid #coke img {
-    width:17vw;
 }
 .grid #maro img {
     width:28vw;
@@ -147,6 +154,9 @@ div.heading a.heading-link:hover {
             "thirteen"
             "fourteen"
             "fifteen"
+            "sixteen"
+            "seventeen"
+            "eighteen"
         ;
         text-align:center;
     }
@@ -163,9 +173,6 @@ div.heading a.heading-link:hover {
     }
     .grid #motel img {
         width:74vw;
-    }
-    .grid #coke img {
-        width:47vw;
     }
     .grid #maro img {
         width:80vw;
