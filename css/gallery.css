@@ -100,7 +100,7 @@ div.heading a.heading-link:hover {
 .grid #sad {
     grid-area:twelve;
 }
-.grid #pespi {
+.grid #spookee {
     grid-area:ten;
 }
 .grid #maro {
@@ -115,7 +115,7 @@ div.heading a.heading-link:hover {
 .grid #meeting {
     grid-area:eight;
 }
-.grid #threedee {
+.grid #catch {
     grid-area:nine;
 }
 .grid #spaceeffect {
