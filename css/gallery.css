@@ -2,7 +2,9 @@
     box-sizing:border-box;
 }
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: fot-rodin-pron, Cambria, Cochin, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     margin:0px;
 }
 div.heading {
@@ -91,7 +93,7 @@ div.heading a.heading-link:hover {
 .grid #fortune {
     grid-area:three;
 }
-.grid #zeppelin {
+.grid #dont-crash-2 {
     grid-area:sixteen;
 }
 .grid #cat-bounce {
