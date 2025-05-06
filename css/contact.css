@@ -13,7 +13,10 @@ div.heading {
     color:white;
     padding-bottom:15px;
     padding-top:5px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: t26-carbon, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
 }
 div.heading-links {
     display:flex;
@@ -43,7 +46,18 @@ div.heading a.heading-link:hover {
     margin:2vw;
     text-align:center;
 }
-.link a {
+.email {
+    font-family: t26-carbon, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:34px;
+    text-align:center;
+}
+.email a {
+    font-family: fot-rodin-pron, Cambria, Cochin, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:24px;
     text-decoration:none;
     color:black;
     padding:.5vw 2vw;
@@ -52,7 +66,7 @@ div.heading a.heading-link:hover {
     background-color 0.3s, 
     color 0.3s;
 }
-.link a:hover {
+.email a:hover {
     background-color:rgb(0, 0, 65);
     color:white;
 }
